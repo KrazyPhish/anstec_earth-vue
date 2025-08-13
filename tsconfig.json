@@ -1,0 +1,31 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "ESNext",
+    "jsx": "react-jsx",
+    "declaration": false,
+    "downlevelIteration": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./src",
+    "noUnusedParameters": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "sourceMap": false,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "noUnusedLocals": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "experimentalDecorators": true,
+  },
+  "exclude": [
+    "createRelease.ts",
+    "rollup.config.ts",
+    "node_modules"
+  ],
+  "include": ["src/**/*.ts", "src/**/*.tsx"]
+}

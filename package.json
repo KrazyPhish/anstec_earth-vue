@@ -1,0 +1,47 @@
+{
+  "name": "@anstec/earth-vue",
+  "author": "anstec",
+  "version": "0.1.0",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "HISTORY.md",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "npm run clean && rollup -c rollup.config.ts --bundleConfigAsCjs",
+    "clean": "rimraf -rf dist/",
+    "release": "npm run build && npm run type",
+    "type": "ts-node createRelease.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KrazyPhish/anstec_earth-vue.git"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "@anstec/earth": "^2.5.1",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@anstec/earth": "^2.5.1",
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.3.1",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@tsconfig/node20": "^20.1.4",
+    "@types/node": "^20.14.15",
+    "cesium": "^1.130.1",
+    "prettier": "^3.6.2",
+    "rimraf": "^6.0.1",
+    "rollup": "^4.44.1",
+    "ts-loader": "^9.5.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "vue": "^3.4.21"
+  }
+}
