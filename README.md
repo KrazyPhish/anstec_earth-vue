@@ -22,7 +22,7 @@ npm install @anstec/earth-vue
 // in your map module, when initializing the cesium viewer
 import { type Earth } from "@anstec/earth"
 import { useEarth } from "@anstec/earth-vue"
-import { onMounted, onUnmounted, useTemplateRef type ShallowRef } from "vue"
+import { onMounted, onUnmounted, useTemplateRef, type ShallowRef } from "vue"
 
 const containerRef = useTemplateRef("container")
 const earthRef: ShallowRef<Earth | null> = useEarth(containerRef)
