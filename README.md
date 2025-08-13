@@ -1,6 +1,5 @@
-## @anstec/earth-react
-
-React hooks for module [@anstec/earth](https://www.npmjs.com/package/@anstec/earth).
+## @anstec/earth-vue
+Vue3 hooks for module [@anstec/earth](https://www.npmjs.com/package/@anstec/earth).
 
 ### Before start
 

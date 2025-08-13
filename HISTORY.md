@@ -2,10 +2,7 @@
 
 ### 版本更新历史记录
 
-#### Version 0.1.1
-1. 修正示例说明中的语法错误
-
-#### Version 0.1.0
+#### Version 0.1.3
 1. 新增 `useAnimationManager` 以钩子形式创建动画管理器
 2. 新增 `useBillboardLayer` 以钩子形式创建广告牌图层
 3. 新增 `useCloudLayer` 以钩子形式创建云朵图层
