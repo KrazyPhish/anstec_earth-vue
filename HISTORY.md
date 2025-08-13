@@ -1,4 +1,4 @@
-## @anstec/earth-react
+## @anstec/earth-vue
 
 ### 版本更新历史记录
 
